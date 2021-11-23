@@ -1,1 +1,63 @@
-<p>progress works!</p>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+
+                <h4 class="card-title">progress</h4>
+                <div class="progress m-t-20">
+                    <div class="progress-bar bg-primary progress-bar-striped active" style="height:10px;" [style.width]="getPorcentaje" role="progressbar">
+                    </div>
+                </div>
+
+                <div class="progress m-t-20">
+                    <div class="progress-bar bg-info progress-bar-striped active" style="height:10px;" [style.width]="getPorcentaje" role="progressbar">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary"
+                        (click)="cambiarvalor(-5)"
+                        type="button">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                    </span>
+                    <input type="text" class="form-control" placeholder="Progreso" [(ngModel)]="progreso" min="0" max="100">
+
+                    <span class="input-group-btn">
+                       <button class="btn btn-primary" 
+                                (click)="cambiarvalor(5)"
+                               type="button">
+                               <i class="fa fa-plus" aria-hidden="true"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
