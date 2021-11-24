@@ -7,8 +7,6 @@ import { AuthModule } from './auth/auth.module';
 
 import { AppComponent } from './app.component';
 import { NofoundComponent } from './nofound/nofound.component';
-import { IncrementadorComponent } from './components/incrementador/incrementador.component';
-
 
 
 
@@ -19,8 +17,8 @@ import { IncrementadorComponent } from './components/incrementador/incrementador
 @NgModule({
   declarations: [
     AppComponent,
-    NofoundComponent,
-    IncrementadorComponent,
+    NofoundComponent
+  
     
     
   ],

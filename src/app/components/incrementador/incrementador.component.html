@@ -1,1 +1,20 @@
-<p>incrementador works!</p>
+<div class="input-group">
+    <span class="input-group-btn">
+        <button class="btn btn-primary"
+        ngClass="btnClass"
+        (click)="cambiarvalor(-5)"
+        type="button">
+            <i class="fa fa-minus"></i>
+        </button>
+    </span>
+    <input type="text" class="form-control" placeholder="Progreso" [ngClass]="{'is-invalid': progreso > 100 || progreso < 0 }" (ngModelChange)="Onchange($event)" [(ngModel)]="progreso" min="0" max="100">
+
+    <span class="input-group-btn">
+       <button class="btn btn-primary" 
+                [ngClass]="btnClass"
+                (click)="cambiarvalor(5)"
+               type="button">
+               <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+    </span>
+</div>

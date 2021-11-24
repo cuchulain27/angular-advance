@@ -1,84 +1,24 @@
-/*
-Template Name: Admin Pro Admin
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
-File: scss
-*/
-
-
-/**
- * Table Of Content
- *
- * 	1. Globals
- *	2. Headers
- *	3. Navigations
- *	4. Banners
- *	5. Footers
- *	6. app
- *	7. Widgets
- *	8. Custom Templates
- */
-
-
-/*
-Template Name: Admin Pro Admin
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
-File: scss
-*/
-
-
-/*Theme Colors*/
-
-
-/*bootstrap Color*/
-
-
-/*Light colors*/
-
-
-/*Normal Color*/
-
-
-/*Extra Variable*/
-
-
-/*
-Template Name: Admin Pro Admin
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
-File: scss
-*/
-
-
-/**
- * Table Of Content
- *
- *  1. Globals
- *  2. Headers
- *  3. Navigations
- *  4. Banners
- *  5. Footers
- *  6. Posts
- *  7. Widgets
- *  8. Custom Templates
- */
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
 
 /******************* 
  Global Styles 
  *******************/
 
-@import url(../scss/icons/font-awesome/css/font-awesome.min.css);
-@import url(../scss/icons/simple-line-icons/css/simple-line-icons.css);
-@import url(../scss/icons/weather-icons/css/weather-icons.min.css);
-@import url(../scss/icons/linea-icons/linea.css);
-@import url(../scss/icons/themify-icons/themify-icons.css);
-@import url(../scss/icons/flag-icon-css/flag-icon.min.css);
-@import url(../scss/icons/material-design-iconic-font/css/materialdesignicons.min.css);
-@import url(../css/spinners.css);
-@import url(../css/animate.css);
+@import url(../../../assets/scss/icons/font-awesome/css/font-awesome.min.css);
+
+/* (../scss/icons/font-awesome/css/font-awesome.min.css); */
+
+@import url(../../../assets/scss/icons/simple-line-icons/css/simple-line-icons.css);
+@import url(../../../assets/scss/icons/weather-icons/css/weather-icons.min.css);
+@import url(../../../assets/scss/icons/linea-icons/linea.css);
+@import url(../../../assets/scss/icons/themify-icons/themify-icons.css);
+@import url(../../../assets/scss/icons/flag-icon-css/flag-icon.min.css);
+@import url(../../../assets/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css);
+@import url(../../../assets/css/spinners.css);
+
+/* ../css/spinners.css */
+
+@import url(../../../assets/css/animate.css);
 * {
     outline: none;
 }
@@ -3419,7 +3359,7 @@ body .jqstooltip {
  ******************/
 
 .custom-select {
-    background: url(../../assets/images/custom-select.png) right 0.75rem center no-repeat;
+    background: url(../../../assets/images/custom-select.png) right 0.75rem center no-repeat;
 }
 
 
@@ -7612,7 +7552,7 @@ table.dataTable thead .sorting:after {
 }
 
 .has-success .form-control-success {
-    background-image: url(../../assets/images/icon/success.svg);
+    background-image: url(../../../assets/images/icon/success.svg);
 }
 
 .has-success .form-control {
@@ -7628,7 +7568,7 @@ table.dataTable thead .sorting:after {
 }
 
 .has-warning .form-control-warning {
-    background-image: url(../../assets/images/icon/warning.svg);
+    background-image: url(../../../assets/images/icon/warning.svg);
 }
 
 .has-warning .form-control {
@@ -7644,7 +7584,7 @@ table.dataTable thead .sorting:after {
 }
 
 .has-danger .form-control-danger {
-    background-image: url(../../assets/images/icon/danger.svg);
+    background-image: url(../../../assets/images/icon/danger.svg);
 }
 
 .has-danger .form-control {

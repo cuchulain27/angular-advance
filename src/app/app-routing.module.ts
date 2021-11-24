@@ -9,7 +9,7 @@ import { pagesRoutingModule } from './pages/pages.routing';
 
 const routes: Routes = [
   
-  {path: '', redirectTo: '/dashbooard', pathMatch: 'full'},
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   {path: '**', component: NofoundComponent }
   
 ]
@@ -25,9 +25,7 @@ const routes: Routes = [
     authRoutingModule
      
   ] ,
-  exports:[
-    RouterModule 
-  ]
+  exports:[RouterModule]
 
   
 })
